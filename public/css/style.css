@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+.chatbox {
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden; /* Clear floats */
+}
+
+.chat-message {
+    width: 80%;
+    float: left;
+    padding: 10px;
+}
+
+.chat-message h2 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.chat-message p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.participants {
+    width: 20%;
+    float: right;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.participants h3 {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.participants ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.participants ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.guess-form {
+    margin-top: 20px;
+}
+
+.guess-input {
+    width: 60%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.recipient-dropdown {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.guess-btn {
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.guess-btn:hover {
+    background-color: #45a049;
+}
